@@ -1,0 +1,21 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: developer
+    password: 1234
+    
+  datasource:
+  
+    url: jdbc:postgresql://localhost:5432/marciro
+    username: marciro
+    password: rhcp2904
+    driver-class-name: org.postgresql.Driver 
+    hikari:
+      schema: rabbitmq
+ 
+  jpa:
+    properties:
+      hibernate:
+         default_schema: rabbitmq
+ 
