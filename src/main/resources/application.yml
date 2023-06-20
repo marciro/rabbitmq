@@ -2,8 +2,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: developer
-    password: 1234
+    username: guest
+    password: guest
     
   datasource:
   
@@ -18,4 +18,7 @@ spring:
     properties:
       hibernate:
          default_schema: rabbitmq
- 
+
+marciro:
+   rabbitmq:
+        queue: teste
